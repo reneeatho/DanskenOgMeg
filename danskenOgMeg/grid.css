@@ -1,0 +1,134 @@
+/*-----------------ViewFront------------------------*/
+body {
+    margin:0;
+    padding:0;
+} 
+.page{
+    background-color: yellow;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 2fr 7fr 3fr  ;
+    grid-template-rows: 1fr 0.5fr 7fr 0.5fr ;
+    grid-template-areas: 'header header header'
+                         'liteFelt liteFelt liteFelt'
+                         'meny innhold innhold '
+                         'footer footer footer ';
+}
+@media only screen and (max-width: 600px){
+    .page{
+        grid-template-columns:1fr 4fr ;
+        grid-template-rows: 2fr 6fr 1fr ;
+        grid-template-areas: 'meny meny'
+                             'header innhold' 
+                             'footer footer';
+    }
+}
+div.header {
+    background-color: rgb(189, 207, 243);
+    grid-area: header;
+}
+div.meny {
+    background-color:seagreen;
+    grid-area: meny;
+}
+div.innhold {
+    background-color:lightgray;
+    grid-area: innhold;
+}
+div.liteFelt {
+    background-color:white;
+    grid-area: liteFelt;
+}
+div.footer {
+    background-color:blue;
+    grid-area: footer;
+}
+/*------------------------Handlekurv---------------------*/
+
+.pageCart {
+    background-color: teal;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 3fr ;
+    grid-template-areas:'header header header header'
+                        'liteFelt liteFelt liteFelt liteFelt'
+                        'product price quantity removeBtn'
+                        'buyBtn buyBtn buyBtn buyBtn'
+                        'footer footer footer footer';
+}
+
+
+
+
+
+
+div.footer {
+    grid-area: footer;
+    background-color: tomato;
+}
+div.product {
+    grid-area: product;
+    background-color: blue;
+}
+
+div.price {
+    grid-area: price;
+    background-color: green;
+}
+
+div.quantity {
+    grid-area: quantity;
+    background-color: yellow;
+}
+
+div.removeBtn {
+    grid-area: removeBtn;
+    background-color: orange;
+}
+
+div.buyBtn {
+    position: relative;
+    top: 10%;
+    left:40%;
+    grid-area: buyBtn;
+    background-color: red;
+}
+
+/*-----------LOGIN-----------*/
+    .loginPage{
+        background-color: pink;
+        height: 100vh;
+        display:grid;
+        grid-template-columns:1fr 6fr 1fr  ;
+        grid-template-rows: 1fr 0.6fr 8fr 1fr;
+        grid-template-areas: 'headerL headerL headerL'
+                             'smalLinje smalLinje smalLinje'
+                             'innholdL menyL innhold1L' 
+                             'innholdL menyL innhold1L'
+                             'footerL footerL footerL';
+    }
+.headerL {
+    background-color: rgb(189, 207, 243);
+    grid-area: headerL;
+}
+.smalLinje{
+    background-color: gray;
+    grid-area: smalLinje;
+}
+.menyL {
+    background-color:white;
+    grid-area: menyL;
+}
+.innholdL {
+    background-color:white;
+    grid-area: innholdL;
+}
+.innhold1L {
+    background-color:white;
+    grid-area: innhold1L;
+}
+.footerL {
+    background-color:blue;
+    grid-area: footerL;
+}

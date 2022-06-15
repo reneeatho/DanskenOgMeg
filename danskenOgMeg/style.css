@@ -1,0 +1,209 @@
+/*------------FrontPage------------*/
+ul{
+  margin:5px;
+}
+.dropDownList{
+  user-select: none;
+  color:black;
+  list-style-type: none;
+  margin:0px;
+  padding:5px;
+  background-color: rgb(128, 166, 240) ;
+  border:1px solid black;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  width:75%;
+}
+.dropDownList:hover{
+  background-color: black;
+  color: rgb(197, 233, 241);
+}
+.header{
+  text-align:center;
+}
+.footer {
+  grid-area: footer;
+}
+.liteFeltLi{
+  list-style-type: none;
+  float:left;
+  margin-left:15%;
+}
+.liteFelt {
+ 
+  align-items: center;
+
+}
+.sublist{
+  user-select: none;
+  background-color:tomato;
+  color:black;
+  list-style-type: none;
+  margin:0px;
+  padding:5px;
+  margin-left: 10px;
+  border:1px solid black;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  width:75%;
+}
+.sublist:hover{
+  background-color: black;
+  color: tomato;
+}
+
+/* .drit:hover{
+  background-color: pink;
+  border: 1px solid black;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left:75px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+} */
+
+/* *************HANDLEKURV************* */
+
+.productImg {
+  height: 100px;
+  width: 100px;
+  border: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: rgb(0, 181, 226);
+}
+
+.quantityInput {
+  height:20px;
+  width: 50px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(0, 134, 18)
+}
+
+ .removeBtn {
+  color: rgba(255, 255, 255, 0.801);
+  height: 30px;
+  width: 90px;
+  border: solid;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: rgb(253, 111, 111);
+  font-weight: bold;
+
+} 
+.cart {
+  border: solid;
+}
+
+ .buyBtn {
+  height: 30px;
+  width: 90px;
+  border: solid;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: rgb(111, 161, 253);
+  text-align: center;
+  vertical-align: middle;
+  align-items: middle;
+  cursor: pointer;
+  font-weight: bold;
+} 
+
+body {
+  background-color: rgba(30, 31, 30, 0.815);
+}
+
+/*----------LOGIN------------*/
+.h2Login{
+  text-align:center;
+}
+.paragraphMail{
+  text-align:center;
+  text-decoration: underline;
+}
+.Phone{
+  text-align:center;
+}
+.paragraphLogin{
+  text-align:center;
+}
+.username{
+  font-size: 15px;
+  width:30%;
+  padding:1% 0% 1% 0%;
+}
+.password{
+  font-size: 15px;
+  width:30%;
+  padding:1% 0% 1% 0%;
+}
+.usernamePosition{
+  text-align:center;
+}
+.passwordPosition{
+  text-align:center;
+  margin-top: 1%;
+
+}
+.loginButton{
+  margin-left:34.80%;
+  margin-top:1%;
+  background-color:rgb(243, 121, 7);
+  color:white;
+  width:30.4%;
+  padding:0.5% 0% 0.5% 0%
+}
+.loginButton:hover{
+  background-color:rgb(243, 121, 7);
+  box-shadow: 2px 2px 1px 1px black;
+}
+
+.forgotPasswordButton{
+  text-decoration: underline;
+  background-color: white;
+  width:30.4%;
+  margin-top:1%;
+  margin-left:34.80%;
+  padding:0.5% 0% 0.5% 0%;
+}
+.forgotPasswordButton:hover{
+  background-color:rgb(247, 240, 240);
+  box-shadow: 2px 2px 1px 1px black;
+}
+.createUserButton{
+  text-decoration: underline;
+  background-color:white;
+  width:30.4%;
+  margin-top:1%;
+  margin-left:34.80%;
+  padding:0.5% 0% 0.5% 0%;
+}
+.createUserButton:hover{
+  background-color:rgb(247, 240, 240);
+  box-shadow: 2px 2px 1px 1px black;
+}
+.backLogin{
+  list-style-type: none;
+  float:left;
+  margin-left:2%;
+}
+.cartLogin{
+  float:right;
+  list-style-type: none;
+  margin-right:2%;
+}
